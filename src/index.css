@@ -1,13 +1,66 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.contactInfoPaginatorWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  height: 30px;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.contactInfoHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: aquamarine;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.contactInfoPaginatorButtons button {
+  margin-right: 4px;
+}
+
+.userContact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background-color: lightgray;
+  padding: 8px;
+}
+
+.userContact .imgContainer {
+  margin-right: 1rem;
+}
+
+.userContact .imgContainer img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.highlight {
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+
+.highlight .mode {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.highlight .mode span {
+  margin-right: 0.5rem;
 }
